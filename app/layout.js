@@ -3,6 +3,8 @@ import './input.css'
 import './output.css'
 import HeaderTop from "./components/Header/HeaderTop"
 import HeaderBottom from "./components/Header/HeaderBottom"
+import FooterTop from "./components/Footer/FooterTop"
+import FooterBottom from "./components/Footer/FooterBottom"
 
 export const metadata = {
   title: 'Blog Project',
@@ -13,10 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className='font-ubuntu text-default'>
-        <HeaderTop/>
-        <HeaderBottom/>
+        <HeaderTop />
+        <HeaderBottom />
         {children}
-        </body>
+        <FooterTop />
+        <FooterBottom />
+      </body>
     </html>
   )
 }

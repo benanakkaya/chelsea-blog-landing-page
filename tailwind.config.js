@@ -5,9 +5,13 @@ module.exports = {
       container:{
         center: true
       },
+      fontSize:{
+        xxs: "0.5rem"
+      },
       colors:{
         primary: "#014ea8",
         secondary: "#004798",
+        tertiary: "#004698",
         main: "#ffffff",
         facebook: "#3b5998",
         twitter: "#1dcaff",

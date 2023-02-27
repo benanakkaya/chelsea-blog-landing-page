@@ -35,7 +35,7 @@ export default function PopularPosts() {
 
 
     return (
-        <div className='container px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-4'>
+        <div className='container px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {posts.map((post) => (
                 <div key={post.id} className='cursor-pointer group'>
                     <div className='w-full h-60 relative bg-primary'>
