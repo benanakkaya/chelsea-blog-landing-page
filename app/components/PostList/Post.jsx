@@ -12,7 +12,7 @@ export default function Post({post}) {
             <div className='w-full h-60 relative group bg-primary cursor-pointer'>
                 <Image className='group-hover:opacity-60 transition-opacity duration-200' src={post.image} alt={post.id} fill />
             </div>
-            <div className=' border-t border-solid border-gray-300 p-4'>
+            <div className=' border-t border-solid border-gray-300 py-4 md:px-4'>
                 <div className='flex flex-col gap-2'>
                     <small className='text-xs text-gray-400 uppercase'>{post.tag}</small>
                     <Link href="/#" className='text-2xl font-bold text-primary'>{post.title}</Link>

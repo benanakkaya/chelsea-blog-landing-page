@@ -55,9 +55,9 @@ export default function Menu() {
                         </div>
 
                         <div className='flex items-center justify-center gap-1 lg:gap-2'>
-                            <AiFillFacebook className='hover:text-primary cursor-pointer text-xl' />
-                            <AiFillTwitterSquare className='hover:text-primary cursor-pointer text-xl' />
-                            <AiFillInstagram className='hover:text-primary cursor-pointer text-xl' />
+                            <AiFillFacebook className='hover:scale-125 cursor-pointer text-xl' />
+                            <AiFillTwitterSquare className='hover:scale-125 cursor-pointer text-xl' />
+                            <AiFillInstagram className='hover:scale-125 cursor-pointer text-xl' />
                         </div>
                     </div>
                 </div>

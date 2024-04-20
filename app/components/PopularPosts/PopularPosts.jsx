@@ -9,7 +9,7 @@ export default function PopularPosts() {
     const posts = [
         {
             id: 1,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/11/graham-potter-chelsea.jpg",
+            image: "/graham-potter-chelsea.webp",
             tag: "NEWS",
             title: "Will Graham Potter be sacked?",
             author: "Barry Bridges",
@@ -17,7 +17,7 @@ export default function PopularPosts() {
         },
         {
             id: 2,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2023/02/reece-james-chelsea-harry-kane-tottenham.jpg",
+            image: "/reece-james-chelsea-harry-kane-tottenham.webp",
             tag: "MATCH PREVIEWS",
             title: "How Chelsea should lineup for Spurs",
             author: "Simon Philips",
@@ -25,7 +25,7 @@ export default function PopularPosts() {
         },
         {
             id: 3,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2023/02/thiago-silva-chelsea.jpg",
+            image: "/thiago-silva-chelsea.webp",
             tag: "OPINIONS",
             title: "Chelsea must remember leadership balance...",
             author: "Simon Philips",
@@ -35,7 +35,7 @@ export default function PopularPosts() {
 
 
     return (
-        <div className='container px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='container grid grid-cols-1 md:grid-cols-3 '>
             {posts.map((post) => (
                 <div key={post.id} className='cursor-pointer group'>
                     <div className='w-full h-60 relative bg-primary'>

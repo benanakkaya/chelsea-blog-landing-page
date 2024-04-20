@@ -9,31 +9,31 @@ export default function SideMenu() {
         {
             id: 1,
             tag: "NEWS",
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/11/christian-pulisic-chelsea-100x100.jpg",
+            image: "/christian-pulisic-chelsea-100x100.webp",
             title: "Rio Ferdinand defends the Blues, Christian Pulisic..."
         },
         {
             id: 2,
             tag: "NEWS",
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/10/aubameyang-chelsea-100x100.jpg",
+            image: "/aubameyang-chelsea-100x100.webp",
             title: "The simple stat that shows where Chelsea are struggling"
         },
         {
             id: 3,
             tag: "OPINIONS",
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/12/trevoh-chalobah-v-aston-villa-100x100.jpg",
+            image: "/trevoh-chalobah-v-aston-villa-100x100.webp",
             title: "How Chelsea might line-up vs Villa on Sunday"
         },
         {
             id: 4,
             tag: "NEWS",
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/11/fifa-world-cup-qatar-1-100x100.jpg",
+            image: "/fifa-world-cup-qatar-1-100x100.webp",
             title: "How to make big money betting on the World Cup"
         },
         {
             id: 5,
             tag: "NEWS",
-            image: "https://www.talkchelsea.net/wp-content/uploads/2021/09/thiago-silva-goal-v-tottenham-100x100.jpg",
+            image: "/thiago-silva-goal-v-tottenham-100x100.webp",
             title: "Thiago Silva doesn’t need to dope to be the best around"
         },
     ]
@@ -69,8 +69,8 @@ export default function SideMenu() {
                 <div className='flex flex-col gap-2'>
                     {posts.map((post) => (
                         <div className='flex items-center gap-3 cursor-pointer group'>
-                            <div className='flex items-center'>
-                                <div className='w-8 h-8 z-10 relative -right-5 rounded-full bg-primary flex items-center justify-center text-lg text-white font-bold border border-3 border-solid'>
+                            <div className='flex items-center relative'>
+                                <div className='w-8 h-8 z-10 absolute left-0 rounded-full bg-primary flex items-center justify-center text-lg text-white font-bold border border-3 border-solid'>
                                     {post.id}
                                 </div>
                                 <div className='w-20 h-20 rounded-full bg-primary'>

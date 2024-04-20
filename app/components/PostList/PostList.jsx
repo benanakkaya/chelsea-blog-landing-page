@@ -8,7 +8,7 @@ export default function PostList() {
     const posts = [
         {
             id: 1,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/10/ruben-loftus-cheek-chelsea-400x240.jpg",
+            image: "/ruben-loftus-cheek-chelsea-400x240.webp",
             tag: "OPINIONS",
             title: "Chelsea will surely have to sell some homegrown players",
             text: "Chelsea could still face Financial Fair Play issues this summer if they fail to qualify for...",
@@ -17,7 +17,7 @@ export default function PostList() {
         },
         {
             id: 2,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2018/06/Borussia-Dortmund-400x240.jpg",
+            image: "/Borussia-Dortmund-400x240.webp",
             tag: "OPINIONS",
             title: "Looking ahead to Dortmund",
             text: "Chelsea face Borussia Dortmund in the last 16 of the Champions League this evening in leg...",
@@ -26,7 +26,7 @@ export default function PostList() {
         },
         {
             id: 3,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/12/stamford-bridge-chelsea-stadium-400x240.jpg",
+            image: "/stamford-bridge-chelsea-stadium-400x240.webp",
             tag: "NEWS",
             title: "Chelsea further from Champions League race than ever",
             text: "January is over, the transfer window is closed, and Chelsea will now have to start working...",
@@ -35,7 +35,7 @@ export default function PostList() {
         },
         {
             id: 4,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2023/02/raheem-sterling-vs-west-ham-united-400x240.jpg",
+            image: "/raheem-sterling-vs-west-ham-united-400x240.webp",
             tag: "OPINIONS",
             title: "West Ham game a must win if Chelsea want UCL",
             text: "I think most Chelsea fans have accepted that we will not be finishing in the top...",
@@ -44,7 +44,7 @@ export default function PostList() {
         },
         {
             id: 5,
-            image: "https://www.talkchelsea.net/wp-content/uploads/2022/10/aubameyang-chelsea-400x240.jpg",
+            image: "/aubameyang-chelsea-400x240.webp",
             tag: "OPINIONS",
             title: "Chelsea could have answer for lack of goals",
             text: "Chelsea have lacked goals and goal scorers recently, that has been clear to see. And some...",

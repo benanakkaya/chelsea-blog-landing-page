@@ -5,7 +5,7 @@ import { MdOutlinePhotoSizeSelectActual } from "react-icons/md";
 
 export default function SortSettings() {
     return (
-        <div className='w-full flex items-center justify-end gap-3  text-gray-400'>
+        <div className='w-full flex items-center justify-start md:justify-end gap-3  text-gray-400'>
             <Link href="/#" className="flex items-center justify-center gap-1 text-gray-600 font-bold">
                 <AiOutlineClockCircle />
                 LATEST

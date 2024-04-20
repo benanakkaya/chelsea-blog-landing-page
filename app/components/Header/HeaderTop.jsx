@@ -8,7 +8,7 @@ export default function HeaderTop() {
                 className='cursor-pointer hover:animate-pulse'
                 width={100}
                 height={100}
-                src="https://www.talkchelsea.net/wp-content/uploads/2022/07/talk-chelsea-logo-1.png"
+                src="/talk-chelsea-logo-1.webp"
             />
         </div>
     )
